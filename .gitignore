@@ -1,0 +1,63 @@
+﻿# ============================================================
+# RoadLink - Git Ignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Generated RoadLink outputs
+backend/storage/outputs/*
+!backend/storage/outputs/.gitkeep
+
+# Temporary / debug files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Local backups
+*.before_*.py
+*.backup
+
+# Large prototype video - stored separately for deployment
+backend/assets/videos/ParkingVideo.mp4
+
+# Development backup files
+*.backup-before-*
+*.backup-before-*.jsx
+*.backup-before-*.css
+*.backup-before-*.py

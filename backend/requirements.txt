@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pymongo
+python-dotenv
+opencv-python
+ultralytics
+easyocr
+numpy==2.4.6
