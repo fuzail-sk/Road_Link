@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://road-link.onrender.com";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, {
