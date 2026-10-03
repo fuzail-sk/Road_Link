@@ -12,7 +12,7 @@ from typing import Any
 import cv2
 
 from app.config import VIDEOS_DIR, OUTPUTS_DIR
-from app.services.vehicle_tracker import VehicleTracker
+from app.services.vehicle_tracker import vehicle_tracker
 from app.services.speed_estimator import SpeedEstimator
 from app.services.traffic_engine import TrafficEngine
 from app.services.alert_engine import AlertEngine
@@ -35,7 +35,7 @@ class VideoIntelligenceService:
         self,
         persistence_required: int = 3,
     ):
-        self.tracker = VehicleTracker()
+        self.tracker = vehicle_tracker
         self.speed_estimator = SpeedEstimator()
         self.traffic_engine = TrafficEngine()
         self.alert_engine = AlertEngine(
@@ -672,3 +672,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

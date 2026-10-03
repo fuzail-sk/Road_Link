@@ -8,3 +8,4 @@ opencv-python
 ultralytics
 easyocr
 numpy==2.4.6
+lap>=0.5.12
