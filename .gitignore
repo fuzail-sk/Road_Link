@@ -1,4 +1,4 @@
-﻿# ============================================================
+# ============================================================
 # RoadLink - Git Ignore
 # ============================================================
 
@@ -54,7 +54,6 @@ desktop.ini
 *.backup
 
 # Large prototype video - stored separately for deployment
-backend/assets/videos/ParkingVideo.mp4
 
 # Development backup files
 *.backup-before-*
